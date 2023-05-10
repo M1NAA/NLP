@@ -1,29 +1,4 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyOxdWVttMaaHtB6LizAT1Ul"
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "code",
-      "execution_count": 4,
-      "metadata": {
-        "id": "JnPRUcavA-bi"
-      },
-      "outputs": [],
-      "source": [
-        "import spacy
+import spacy
 import pandas as pd
 from spacy.lang.en.stop_words import STOP_WORDS
 from string import punctuation
@@ -149,37 +124,15 @@ with st.form("form1"):
             st.text(texts)
 
             st.success("summarized text:- ")
-            st.text(final_summray)"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "my_dict = {\n",
-        "    \n",
-        "'English': 'English',\n",
-        "'Arabic': 'Arabic',\n",
-        "\n",
-        "}"
-      ],
-      "metadata": {
-        "id": "Aw8qe6H7BHqn"
-      },
-      "execution_count": 5,
-      "outputs": []
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "st.title(\"summarization with nlp\")"
-      ],
-      "metadata": {
-        "id": "Dn4L3KbSBZ2L"
-      },
-      "execution_count": null,
-      "outputs": []
-    },
-    
-    }
-  ]
-}
+            st.text(final_summray)
+
+
+
+
+
+
+
+
+
+
+
